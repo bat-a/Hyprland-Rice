@@ -1,0 +1,40 @@
+configuration {
+    font: "Fira Code 12";   /* Font and size */
+    transparency: 90%;      /* Transparency for the window */
+    padding: 10px;          /* Padding around text */
+}
+
+window {
+    background-color: #1d1f21; /* Dark background color */
+    border-radius: 10px;        /* Rounded corners */
+}
+
+listview {
+    lines: 10;                  /* Number of items visible */
+    fixed-height: 0;            /* Auto-expand the list */
+    padding: 5px;
+    background-color: #282c34;  /* Darker background for the list */
+}
+
+element {
+    background-color: #353b45;  /* Background color for items */
+    border-radius: 5px;         /* Rounded corners for items */
+    text-color: #ffffff;        /* White text color */
+}
+
+element selected {
+    background-color: #4f5b66;  /* Lighter background for selected item */
+    text-color: #ffffff;        /* White text for selected item */
+}
+
+element alternate {
+    background-color: #2a2f36;  /* Slightly darker alternate items */
+}
+
+separator {
+    background-color: #1d1f21;  /* Dark separator */
+}
+
+hint {
+    text-color: #f5f5f5;        /* Lighter color for hints */
+}

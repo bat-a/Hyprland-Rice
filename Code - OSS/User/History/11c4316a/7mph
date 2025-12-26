@@ -1,0 +1,13 @@
+# Dark mode styling
+background-color=#1e1e2eCC
+text-color=#cdd6f4FF
+border-color=#45475aFF
+border-size=2
+border-radius=10
+font=Noto Sans Mono 10
+padding=10
+margin=10
+height=100
+width=300
+layer=overlay
+anchor=top-right

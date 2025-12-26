@@ -1,0 +1,50 @@
+{
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["network", "battery", "cpu", "memory"],
+    "modules-center": ["clock"],
+    "modules-right": ["temperature", "pulse"],
+    "tray-position": "right",
+    "tray": true,
+
+    // Network Module (Change to correct interface)
+    "network": {
+        "interface": "wlan0",  // Replace with the correct network interface on your system
+        "format": "<span font='FontAwesome'></span> {interface}"
+    },
+
+    // Battery Module
+    "battery": {
+        "format": "{capacity}%"
+    },
+
+    // CPU Usage
+    "cpu": {
+        "format": "CPU: {usage}%",
+        "interval": 1
+    },
+
+    // Memory Usage
+    "memory": {
+        "format": "RAM: {used}/{total} GB",
+        "interval": 1
+    },
+
+    // Temperature
+    "temperature": {
+        "format": "Temp: {temp}°C"
+    },
+
+    // Clock
+    "clock": {
+        "format": "{time} | {date}",
+        "time": "%I:%M:%S %p",
+        "date": "%A, %B %d"
+    },
+
+    // PulseAudio Volume
+    "pulse": {
+        "format": "<span font='FontAwesome'></span> {volume}%",
+        "interval": 1
+    }
+}

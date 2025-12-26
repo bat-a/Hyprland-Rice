@@ -1,0 +1,54 @@
+2025-12-26 19:07:21.654 [info] [main] Log level: Info
+2025-12-26 19:07:21.654 [info] [main] Validating found git in: "git"
+2025-12-26 19:07:21.654 [info] [main] Using git "2.52.0" from "git"
+2025-12-26 19:07:21.654 [info] [Model][doInitialScan] Initial repository scan started
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [17ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [21ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [4ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-26 19:07:21.654 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2025-12-26 19:07:21.654 [info] [Model][openRepository] Opened repository (path): /home/bat/.oh-my-zsh
+2025-12-26 19:07:21.654 [info] [Model][openRepository] Opened repository (real path): /home/bat/.oh-my-zsh
+2025-12-26 19:07:21.654 [info] [Model][openRepository] Opened repository (kind): repository
+2025-12-26 19:07:21.654 [info] > git rev-parse --show-toplevel [5ms]
+2025-12-26 19:07:21.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.654 [info] > git config --get commit.template [12ms]
+2025-12-26 19:07:21.655 [info] > git rev-parse --show-toplevel [28ms]
+2025-12-26 19:07:21.655 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.666 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2025-12-26 19:07:21.964 [info] > git rev-parse --show-toplevel [299ms]
+2025-12-26 19:07:21.964 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:21.965 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-12-26 19:07:22.177 [info] > git rev-parse --show-toplevel [20ms]
+2025-12-26 19:07:22.177 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:22.219 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2025-12-26 19:07:22.288 [info] > git fetch [702ms]
+2025-12-26 19:07:22.329 [info] > git status -z -uall [138ms] (cancelled)
+2025-12-26 19:07:22.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [28ms]
+2025-12-26 19:07:22.343 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2025-12-26 19:07:22.351 [info] > git config --get commit.template [26ms]
+2025-12-26 19:07:22.351 [info] > git config --get commit.template [36ms]
+2025-12-26 19:07:22.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-12-26 19:07:22.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [17ms]
+2025-12-26 19:07:22.379 [info] > git merge-base refs/heads/master refs/remotes/origin/master [4ms]
+2025-12-26 19:07:22.389 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-12-26 19:07:22.392 [info] > git diff --name-status -z --diff-filter=ADMR --find-renames=50% 0f45f82c0afdcaf71b193e349d01c069a3fb9de7...refs/remotes/origin/master -- [4ms]
+2025-12-26 19:07:22.443 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [32ms]
+2025-12-26 19:07:22.445 [info] > git rev-parse --show-toplevel [4ms]
+2025-12-26 19:07:22.445 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:22.487 [info] > git status -z -uall [85ms]
+2025-12-26 19:07:22.815 [info] > git rev-parse --show-toplevel [3ms]
+2025-12-26 19:07:22.815 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-12-26 19:07:55.809 [info] > git rev-parse --show-toplevel [2ms]
+2025-12-26 19:07:55.809 [info] fatal: not a git repository (or any of the parent directories): .git

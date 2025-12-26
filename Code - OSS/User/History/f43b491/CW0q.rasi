@@ -1,0 +1,26 @@
+configuration {
+    font: "Fira Code 12";   /* Font and size */
+    transparency: 90%;      /* Window transparency */
+    padding: 10px;          /* Padding around text */
+}
+
+window {
+    background-color: #1e1e1e; /* Dark background */
+    border-radius: 10px;   /* Rounded corners */
+}
+
+listview {
+    lines: 10;             /* Number of items visible */
+    fixed-height: 0;       /* Auto-expand */
+    padding: 5px;
+}
+
+element {
+    background-color: #333;   /* Item background */
+    border-radius: 5px;
+    text-color: white;        /* Item text color */
+}
+
+element selected {
+    background-color: #586e75; /* Selected item background */
+}

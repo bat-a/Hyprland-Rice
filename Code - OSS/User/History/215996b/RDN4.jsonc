@@ -1,0 +1,63 @@
+{
+    // Waybar Config
+    "layer": "top",
+    "position": "top",
+    "modules-left": ["network", "battery", "temperature", "clock"],
+    "modules-center": ["pulse", "brightness", "spotify"],
+    "modules-right": ["cpu", "ram", "disk", "weather"],
+    "tray-position": "right",
+    "tray": true,
+    "custom": {
+        "weather": {
+            "format": "Weather: {temperature}°C {condition}",
+            "location": "YourCity"
+        },
+        "spotify": {
+            "format": "{artist} - {title}"
+        }
+    },
+
+    // Modules Configuration
+    "network": {
+        "format": "<span font='FontAwesome'></span> {interface}",
+        "interface": "wlan0"
+    },
+    "battery": {
+        "format": "{capacity}%",
+        "max-length": 50
+    },
+    "cpu": {
+        "format": "{usage}%",
+        "interval": 1
+    },
+    "ram": {
+        "format": "{used}/{total}GB",
+        "interval": 1
+    },
+    "disk": {
+        "format": "{used}/{total}GB",
+        "interval": 5
+    },
+    "brightness": {
+        "format": "Brightness: {percentage}%",
+        "interval": 0.1
+    },
+    "clock": {
+        "format": "{time} | {date}",
+        "time": "%I:%M:%S %p",
+        "date": "%A, %B %d"
+    },
+    "pulse": {
+        "format": "<span font='FontAwesome'></span> {volume}%",
+        "interval": 1
+    },
+
+    // Custom module for weather and Spotify (if you have these services)
+    "weather": {
+        "format": "Weather: {temperature}°C {condition}",
+        "location": "YourCity"
+    },
+    "spotify": {
+        "format": "{artist} - {title}"
+    }
+}
