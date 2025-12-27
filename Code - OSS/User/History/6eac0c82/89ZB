@@ -1,6 +1,0 @@
-# Minimal Zsh config
-export ZSH_THEME="minimal"
-alias ll='ls -la'
-export PATH=$HOME/bin:$PATH
-# Example prompt
-PROMPT="%n@%m:%~$ "
