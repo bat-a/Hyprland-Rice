@@ -1,0 +1,505 @@
+cool it
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Code - OSS/Cache/Cache_Data/39a2dabf4fdcabf3_0
+#	modified:   Code - OSS/Cache/Cache_Data/53211fb69b2b20a7_0
+#	modified:   Code - OSS/Cache/Cache_Data/66373a9947e817e2_0
+#	modified:   Code - OSS/Cache/Cache_Data/f5f572736dcdf4b2_0
+#	modified:   Code - OSS/Cache/Cache_Data/index-dir/the-real-index
+#	modified:   Code - OSS/CachedData/302ff6a2e235c95b88e587d4a4b6eeb1b6613297/chrome/js/index-dir/the-real-index
+#	modified:   Code - OSS/CachedProfilesData/__default__profile__/extensions.builtin.cache
+#	modified:   Code - OSS/DIPS
+#	modified:   Code - OSS/DawnGraphiteCache/data_1
+#	modified:   Code - OSS/DawnGraphiteCache/index
+#	modified:   Code - OSS/DawnWebGPUCache/data_1
+#	modified:   Code - OSS/DawnWebGPUCache/index
+#	modified:   Code - OSS/GPUCache/data_1
+#	modified:   Code - OSS/GPUCache/index
+#	modified:   Code - OSS/Local Storage/leveldb/LOG
+#	modified:   Code - OSS/Local Storage/leveldb/LOG.old
+#	modified:   Code - OSS/Session Storage/000003.log
+#	modified:   Code - OSS/Session Storage/LOG
+#	modified:   Code - OSS/Session Storage/LOG.old
+#	modified:   Code - OSS/TransportSecurity
+#	new file:   Code - OSS/User/History/72ee76dd/NuqP.sh
+#	new file:   Code - OSS/User/History/72ee76dd/QlVr.sh
+#	new file:   Code - OSS/User/History/72ee76dd/entries.json
+#	modified:   Code - OSS/User/globalStorage/state.vscdb
+#	modified:   Code - OSS/User/globalStorage/state.vscdb.backup
+#	modified:   Code - OSS/User/globalStorage/storage.json
+#	new file:   Code - OSS/User/workspaceStorage/1766772277260/state.vscdb
+#	new file:   Code - OSS/User/workspaceStorage/1766772277260/state.vscdb.backup
+#	modified:   Code - OSS/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/state.vscdb
+#	modified:   Code - OSS/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/state.vscdb.backup
+#	deleted:    Code - OSS/code.lock
+#	modified:   Code - OSS/logs/20251226T223548/main.log
+#	new file:   Code - OSS/logs/20251226T223548/ptyhost.log
+#	modified:   Code - OSS/logs/20251226T223548/remoteTunnelService.log
+#	modified:   Code - OSS/logs/20251226T223548/window1/exthost/exthost.log
+#	modified:   Code - OSS/logs/20251226T223548/window1/exthost/vscode.git/Git.log
+#	renamed:    Code - OSS/DIPS-wal -> Code - OSS/logs/20251226T223548/window1/exthost/vscode.json-language-features/JSON Language Server.log
+#	renamed:    Code - OSS/SharedStorage-wal -> Code - OSS/logs/20251226T223548/window2/exthost/extHostTelemetry.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/exthost.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/output_logging_20251226T233439/1-Carbon Candy.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/output_logging_20251226T233439/2-Prettier.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/output_logging_20251226T233439/3-Code.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/vscode.git/Git.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/exthost/vscode.github/GitHub.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/network.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/notebook.rendering.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/output_20251226T233438/tasks.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/renderer.log
+#	new file:   Code - OSS/logs/20251226T223548/window2/views.log
+#	new file:   Code/Cache/Cache_Data/034e05741e9f9f47_0
+#	new file:   Code/Cache/Cache_Data/051d96f501b287ca_0
+#	new file:   Code/Cache/Cache_Data/07b7d52a48054431_0
+#	new file:   Code/Cache/Cache_Data/07ca0693e6dbe8b4_0
+#	new file:   Code/Cache/Cache_Data/08ee0f70f5c133dd_0
+#	new file:   Code/Cache/Cache_Data/0913fa2fc8d7caff_0
+#	new file:   Code/Cache/Cache_Data/0966c2954b9dc2a6_0
+#	new file:   Code/Cache/Cache_Data/0af61f80d4ef67a0_0
+#	new file:   Code/Cache/Cache_Data/0bbe818ca4ad6ec8_0
+#	new file:   Code/Cache/Cache_Data/0bfa06d0337e7ec7_0
+#	new file:   Code/Cache/Cache_Data/125ad0a78343d68f_0
+#	new file:   Code/Cache/Cache_Data/12953331b8c64864_0
+#	new file:   Code/Cache/Cache_Data/132cb0b05e8743fe_0
+#	new file:   Code/Cache/Cache_Data/14eb246ab25b11d1_0
+#	new file:   Code/Cache/Cache_Data/15d6a908da369df7_0
+#	new file:   Code/Cache/Cache_Data/171b2ad65bab3b68_0
+#	new file:   Code/Cache/Cache_Data/18b988f4d95afa10_0
+#	new file:   Code/Cache/Cache_Data/1a42e93df82c14c9_0
+#	new file:   Code/Cache/Cache_Data/1d19429383c155ff_0
+#	new file:   Code/Cache/Cache_Data/21a364437a0ffe24_0
+#	new file:   Code/Cache/Cache_Data/22207a234eea9364_0
+#	new file:   Code/Cache/Cache_Data/258d3fa019e430cc_0
+#	new file:   Code/Cache/Cache_Data/25e4b7cc8335bbc4_0
+#	new file:   Code/Cache/Cache_Data/26591457ba7c87ff_0
+#	new file:   Code/Cache/Cache_Data/28db98bd97a339d4_0
+#	new file:   Code/Cache/Cache_Data/295ead2720d8fc04_0
+#	new file:   Code/Cache/Cache_Data/29885085d159f6c5_0
+#	new file:   Code/Cache/Cache_Data/2db912fb5d9cf982_0
+#	new file:   Code/Cache/Cache_Data/305403b700cb66dd_0
+#	new file:   Code/Cache/Cache_Data/31a6e56688761367_0
+#	new file:   Code/Cache/Cache_Data/31d3a6e875b77790_0
+#	new file:   Code/Cache/Cache_Data/31dbce1abeac2e97_0
+#	new file:   Code/Cache/Cache_Data/3209c3a3849ad564_0
+#	new file:   Code/Cache/Cache_Data/321d6e82c11052fd_0
+#	new file:   Code/Cache/Cache_Data/323789a5a98dd233_0
+#	new file:   Code/Cache/Cache_Data/326473df706b167b_0
+#	new file:   Code/Cache/Cache_Data/3344fdd84c5c36e7_0
+#	new file:   Code/Cache/Cache_Data/34a7ddba720b62df_0
+#	new file:   Code/Cache/Cache_Data/35991d4b837f4c3a_0
+#	new file:   Code/Cache/Cache_Data/38b25c078f20ebf8_0
+#	new file:   Code/Cache/Cache_Data/3bcaf59e87403c85_0
+#	new file:   Code/Cache/Cache_Data/3d5e111983cd6b18_0
+#	new file:   Code/Cache/Cache_Data/3ebabd97f742cde2_0
+#	new file:   Code/Cache/Cache_Data/3f38b91a411250d4_0
+#	new file:   Code/Cache/Cache_Data/3f717c938ce5121e_0
+#	new file:   Code/Cache/Cache_Data/41f43201e8c8fedf_0
+#	new file:   Code/Cache/Cache_Data/423392be18a1acd3_0
+#	new file:   Code/Cache/Cache_Data/43a4828f299fd9e8_0
+#	new file:   Code/Cache/Cache_Data/44305edae2139734_0
+#	new file:   Code/Cache/Cache_Data/451d0f6731a2fdec_0
+#	new file:   Code/Cache/Cache_Data/45e8a1c7608f4d86_0
+#	new file:   Code/Cache/Cache_Data/488caff92ab2a268_0
+#	new file:   Code/Cache/Cache_Data/4a88eedd076b3f07_0
+#	new file:   Code/Cache/Cache_Data/5283edf90cf4ab50_0
+#	new file:   Code/Cache/Cache_Data/53bc06c6a98201fa_0
+#	new file:   Code/Cache/Cache_Data/548bd125adb3dbb0_0
+#	new file:   Code/Cache/Cache_Data/56f44b21e9cfa7c0_0
+#	new file:   Code/Cache/Cache_Data/591b091226c8310c_0
+#	new file:   Code/Cache/Cache_Data/59d48fe75f001689_0
+#	new file:   Code/Cache/Cache_Data/5a3feba533a84f5f_0
+#	new file:   Code/Cache/Cache_Data/5b6acfcefb90b270_0
+#	new file:   Code/Cache/Cache_Data/5b82478d4048a02f_0
+#	new file:   Code/Cache/Cache_Data/5d0119f2c3062f26_0
+#	new file:   Code/Cache/Cache_Data/5d4d57926c444590_0
+#	new file:   Code/Cache/Cache_Data/5e5eb272d676e349_0
+#	new file:   Code/Cache/Cache_Data/5eb858a201a0eb11_0
+#	new file:   Code/Cache/Cache_Data/6540092ad459cc69_0
+#	new file:   Code/Cache/Cache_Data/665cbc0b8a31bbb0_0
+#	new file:   Code/Cache/Cache_Data/6669db10083db861_0
+#	new file:   Code/Cache/Cache_Data/6830eded621dd062_0
+#	new file:   Code/Cache/Cache_Data/6da44dff35c14ba1_0
+#	new file:   Code/Cache/Cache_Data/6fa7123f0c1c5cd3_0
+#	new file:   Code/Cache/Cache_Data/701811ef25e8230c_0
+#	new file:   Code/Cache/Cache_Data/707b847cd19f21f2_0
+#	new file:   Code/Cache/Cache_Data/711f4fb8babc4a10_0
+#	new file:   Code/Cache/Cache_Data/728b1fb28057f955_0
+#	new file:   Code/Cache/Cache_Data/74b8c74d36a94fe9_0
+#	new file:   Code/Cache/Cache_Data/75519fc1847b569b_0
+#	new file:   Code/Cache/Cache_Data/76868cb38b43e447_0
+#	new file:   Code/Cache/Cache_Data/7736a9ddc2386697_0
+#	new file:   Code/Cache/Cache_Data/79f0039cd458c1ef_0
+#	new file:   Code/Cache/Cache_Data/7d3f81825d662ad1_0
+#	new file:   Code/Cache/Cache_Data/81fc7c3c900f7c4d_0
+#	new file:   Code/Cache/Cache_Data/83bab8ca0c95e44d_0
+#	new file:   Code/Cache/Cache_Data/89f6d24d9d8aab7d_0
+#	new file:   Code/Cache/Cache_Data/8abb2f708612376d_0
+#	new file:   Code/Cache/Cache_Data/8df422225d04ca82_0
+#	new file:   Code/Cache/Cache_Data/8ebb4b7dcf7e806f_0
+#	new file:   Code/Cache/Cache_Data/8fe98a205afb8cd8_0
+#	new file:   Code/Cache/Cache_Data/90757488be2f423e_0
+#	new file:   Code/Cache/Cache_Data/90786041925c74a2_0
+#	new file:   Code/Cache/Cache_Data/919e200a1887f56a_0
+#	new file:   Code/Cache/Cache_Data/9344ad0b543bb08d_0
+#	new file:   Code/Cache/Cache_Data/95c321899ee20117_0
+#	new file:   Code/Cache/Cache_Data/998b5830dcb3758d_0
+#	new file:   Code/Cache/Cache_Data/9990e9b0b6050cc2_0
+#	new file:   Code/Cache/Cache_Data/9a268cd44e49a333_0
+#	new file:   Code/Cache/Cache_Data/9f50bddbd978eddd_0
+#	new file:   Code/Cache/Cache_Data/a38d2da7a0151255_0
+#	new file:   Code/Cache/Cache_Data/a44ec371b0195cd2_0
+#	new file:   Code/Cache/Cache_Data/a60322317e391727_0
+#	new file:   Code/Cache/Cache_Data/a88f10dbaf35e07a_0
+#	new file:   Code/Cache/Cache_Data/ab9f32cbdc9a32f0_0
+#	new file:   Code/Cache/Cache_Data/aba71773cca89799_0
+#	new file:   Code/Cache/Cache_Data/abd77bb85788f565_0
+#	new file:   Code/Cache/Cache_Data/ac154774074f3a4a_0
+#	new file:   Code/Cache/Cache_Data/aebdf233ca3fb855_0
+#	new file:   Code/Cache/Cache_Data/b05af3152170ab96_0
+#	new file:   Code/Cache/Cache_Data/b18f2ee614ee0db9_0
+#	new file:   Code/Cache/Cache_Data/b1fde27aeb083acc_0
+#	new file:   Code/Cache/Cache_Data/b406196eda212752_0
+#	new file:   Code/Cache/Cache_Data/b5016cadcc0d2da6_0
+#	new file:   Code/Cache/Cache_Data/b940553f325b4188_0
+#	new file:   Code/Cache/Cache_Data/bd26bc456a4766be_0
+#	new file:   Code/Cache/Cache_Data/bfbfec944973f122_0
+#	new file:   Code/Cache/Cache_Data/c0c75ecf45a88bed_0
+#	new file:   Code/Cache/Cache_Data/c17b61ed8fd91b62_0
+#	new file:   Code/Cache/Cache_Data/c291a636ea14903c_0
+#	new file:   Code/Cache/Cache_Data/c7852adafddebfcc_0
+#	new file:   Code/Cache/Cache_Data/c89d93934842e6c2_0
+#	new file:   Code/Cache/Cache_Data/c9ec0ac8d257ea57_0
+#	new file:   Code/Cache/Cache_Data/cc9fa7950493d3d3_0
+#	new file:   Code/Cache/Cache_Data/cdd6f303f8aee2c4_0
+#	new file:   Code/Cache/Cache_Data/cec68e4cd4f1b4ec_0
+#	new file:   Code/Cache/Cache_Data/d121e2a6335b7510_0
+#	new file:   Code/Cache/Cache_Data/d932f64956c34f09_0
+#	new file:   Code/Cache/Cache_Data/d9440405b3d5d064_0
+#	new file:   Code/Cache/Cache_Data/dc784f1b8d7b7827_0
+#	new file:   Code/Cache/Cache_Data/e2ab8a808979de40_0
+#	new file:   Code/Cache/Cache_Data/e4348f671cdd4c92_0
+#	new file:   Code/Cache/Cache_Data/e468a06c6177d157_0
+#	new file:   Code/Cache/Cache_Data/e5852d86bf711526_0
+#	new file:   Code/Cache/Cache_Data/e791f7c065a2d762_0
+#	new file:   Code/Cache/Cache_Data/eeb104d5993aa152_0
+#	new file:   Code/Cache/Cache_Data/eef3ff2509923670_0
+#	new file:   Code/Cache/Cache_Data/ef6eadfe8cff2f84_0
+#	new file:   Code/Cache/Cache_Data/f00be0717e46aa8f_0
+#	new file:   Code/Cache/Cache_Data/f618a7c5f765e8da_0
+#	new file:   Code/Cache/Cache_Data/f6c372652db0f10f_0
+#	new file:   Code/Cache/Cache_Data/fbfaa305fa6668a0_0
+#	new file:   Code/Cache/Cache_Data/fe9c57a5466b07c2_0
+#	new file:   Code/Cache/Cache_Data/index
+#	new file:   Code/Cache/Cache_Data/index-dir/the-real-index
+#	new file:   Code/Cache/No_Vary_Search/journal.baj
+#	new file:   Code/Cache/No_Vary_Search/snapshot.baf
+#	new file:   Code/CachedConfigurations/defaults/configurationDefaultsOverrides/configuration.json
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/0f8ca223e736446e_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/1fa93dad425cdb6f_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/2388bd327010d878_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/23e9f4bd4ba29d85_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/43223f66baa3dfc7_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/44e46eff57d069fb_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/47a366b99d50745f_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/4fdd3a3eceada445_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/8d94c17fba81064b_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/900d0e269d4b3f6a_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/9efd80ca052b6852_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/b06232712a059454_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/ba29cf8ebd652d94_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/e3a626dc5ed45a00_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/e6661f6b5d4490f7_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/f4e098b3ab7bdef2_0
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/index
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/js/index-dir/the-real-index
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/wasm/index
+#	new file:   Code/CachedData/994fd12f8d3a5aa16f17d42c041e5809167e845a/chrome/wasm/index-dir/the-real-index
+#	new file:   Code/CachedExtensionVSIXs/aaron-bond.better-comments-3.0.2
+#	new file:   Code/CachedExtensionVSIXs/esbenp.prettier-vscode-11.0.2
+#	new file:   Code/CachedExtensionVSIXs/formulahendry.code-runner-0.12.2
+#	new file:   Code/CachedExtensionVSIXs/ritwickdey.liveserver-5.7.9
+#	new file:   Code/CachedExtensionVSIXs/viral-team.carbon-candy-0.2.2
+#	new file:   Code/CachedProfilesData/__default__profile__/extensions.builtin.cache
+#	new file:   Code/CachedProfilesData/__default__profile__/extensions.user.cache
+#	new file:   Code/Code Cache/js/index
+#	new file:   Code/Code Cache/js/index-dir/the-real-index
+#	new file:   Code/Code Cache/wasm/index
+#	new file:   Code/Code Cache/wasm/index-dir/the-real-index
+#	new file:   Code/Cookies
+#	new file:   Code/Cookies-journal
+#	new file:   Code/Crashpad/client_id
+#	new file:   Code/Crashpad/settings.dat
+#	new file:   Code/DIPS
+#	new file:   Code/DIPS-wal
+#	new file:   Code/DawnGraphiteCache/data_0
+#	new file:   Code/DawnGraphiteCache/data_1
+#	new file:   Code/DawnGraphiteCache/data_2
+#	new file:   Code/DawnGraphiteCache/data_3
+#	new file:   Code/DawnGraphiteCache/index
+#	new file:   Code/DawnWebGPUCache/data_0
+#	new file:   Code/DawnWebGPUCache/data_1
+#	new file:   Code/DawnWebGPUCache/data_2
+#	new file:   Code/DawnWebGPUCache/data_3
+#	new file:   Code/DawnWebGPUCache/index
+#	new file:   Code/Dictionaries/en-US-10-1.bdic
+#	new file:   Code/GPUCache/data_0
+#	new file:   Code/GPUCache/data_1
+#	new file:   Code/GPUCache/data_2
+#	new file:   Code/GPUCache/data_3
+#	new file:   Code/GPUCache/index
+#	new file:   Code/Local Storage/leveldb/000003.log
+#	new file:   Code/Local Storage/leveldb/CURRENT
+#	new file:   Code/Local Storage/leveldb/LOCK
+#	new file:   Code/Local Storage/leveldb/LOG
+#	new file:   Code/Local Storage/leveldb/LOG.old
+#	new file:   Code/Local Storage/leveldb/MANIFEST-000001
+#	new file:   Code/Network Persistent State
+#	new file:   Code/Preferences
+#	new file:   Code/Session Storage/000003.log
+#	new file:   Code/Session Storage/CURRENT
+#	new file:   Code/Session Storage/LOCK
+#	new file:   Code/Session Storage/LOG
+#	new file:   Code/Session Storage/LOG.old
+#	new file:   Code/Session Storage/MANIFEST-000001
+#	new file:   Code/Shared Dictionary/cache/index
+#	new file:   Code/Shared Dictionary/cache/index-dir/the-real-index
+#	new file:   Code/Shared Dictionary/db
+#	new file:   Code/Shared Dictionary/db-journal
+#	new file:   Code/SharedStorage
+#	new file:   Code/SharedStorage-wal
+#	new file:   Code/TransportSecurity
+#	new file:   Code/Trust Tokens
+#	new file:   Code/Trust Tokens-journal
+#	new file:   Code/User/History/-1fcac4d6/ClWa.css
+#	new file:   Code/User/History/-1fcac4d6/OFeX.css
+#	new file:   Code/User/History/-1fcac4d6/PuNA.css
+#	new file:   Code/User/History/-1fcac4d6/Sx5O.css
+#	new file:   Code/User/History/-1fcac4d6/cExN.css
+#	new file:   Code/User/History/-1fcac4d6/entries.json
+#	new file:   Code/User/History/-1fcac4d6/icmZ.css
+#	new file:   Code/User/History/-1fcac4d6/pp4B.css
+#	new file:   Code/User/History/-1fcac4d6/vAne.css
+#	new file:   Code/User/History/-1fcac4d6/yVb3.css
+#	new file:   Code/User/History/-25456fa/0IAX.sh
+#	new file:   Code/User/History/-25456fa/entries.json
+#	new file:   Code/User/History/-42683db9/W8MW.conf
+#	new file:   Code/User/History/-42683db9/entries.json
+#	new file:   Code/User/History/12fea78c/Qh5D.json
+#	new file:   Code/User/History/12fea78c/Xjvp.json
+#	new file:   Code/User/History/12fea78c/entries.json
+#	new file:   Code/User/History/12fea78c/xPcY.json
+#	new file:   Code/User/History/14a33d6d/DpXT.sh
+#	new file:   Code/User/History/14a33d6d/T6id.sh
+#	new file:   Code/User/History/14a33d6d/YyOl.sh
+#	new file:   Code/User/History/14a33d6d/entries.json
+#	new file:   Code/User/History/14a33d6d/imqk.sh
+#	new file:   Code/User/History/215996b/1wfY.jsonc
+#	new file:   Code/User/History/215996b/2LIL.jsonc
+#	new file:   Code/User/History/215996b/2fDM.jsonc
+#	new file:   Code/User/History/215996b/Cclh.jsonc
+#	new file:   Code/User/History/215996b/FVRn.jsonc
+#	new file:   Code/User/History/215996b/Hq0c.jsonc
+#	new file:   Code/User/History/215996b/JBew.jsonc
+#	new file:   Code/User/History/215996b/Jx0h.jsonc
+#	new file:   Code/User/History/215996b/entries.json
+#	new file:   Code/User/History/215996b/iyIl.jsonc
+#	new file:   Code/User/History/215996b/lWnJ.jsonc
+#	new file:   Code/User/History/215996b/p7RF.jsonc
+#	new file:   Code/User/History/215996b/tYf3.jsonc
+#	new file:   Code/User/History/215996b/wZaN.jsonc
+#	new file:   Code/User/History/215996b/x0Xh.jsonc
+#	new file:   Code/User/History/215996b/xYje.jsonc
+#	new file:   Code/User/History/215996b/ydQP.jsonc
+#	new file:   Code/User/History/215996b/zEfr.jsonc
+#	new file:   Code/User/globalStorage/emptyWindowChatSessions/54178ab3-d5f8-4705-87bb-b28978a99d42.json
+#	new file:   Code/User/globalStorage/emptyWindowChatSessions/b71b8b9d-410e-406f-bead-5106c051b5fa.json
+#	new file:   Code/User/globalStorage/state.vscdb
+#	new file:   Code/User/globalStorage/state.vscdb.backup
+#	new file:   Code/User/globalStorage/storage.json
+#	new file:   Code/User/settings.json
+#	new file:   Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/chatEditingSessions/70f95cd5-affc-4d28-b52b-80351d9a2e27/state.json
+#	new file:   Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/chatSessions/70f95cd5-affc-4d28-b52b-80351d9a2e27.json
+#	new file:   Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/state.vscdb
+#	new file:   Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/state.vscdb.backup
+#	new file:   Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/workspace.json
+#	new file:   Code/code.lock
+#	new file:   Code/languagepacks.json
+#	new file:   Code/logs/20251227T173514/editSessions.log
+#	new file:   Code/logs/20251227T173514/main.log
+#	new file:   Code/logs/20251227T173514/network-shared.log
+#	new file:   Code/logs/20251227T173514/remoteTunnelService.log
+#	new file:   Code/logs/20251227T173514/sharedprocess.log
+#	new file:   Code/logs/20251227T173514/telemetry.log
+#	new file:   Code/logs/20251227T173514/terminal.log
+#	new file:   Code/logs/20251227T173514/userDataSync.log
+#	new file:   Code/logs/20251227T173514/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T173514/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T173514/window1/network.log
+#	new file:   Code/logs/20251227T173514/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T173514/window1/output_20251227T173516/tasks.log
+#	new file:   Code/logs/20251227T173514/window1/renderer.log
+#	new file:   Code/logs/20251227T173514/window1/views.log
+#	new file:   Code/logs/20251227T173704/editSessions.log
+#	new file:   Code/logs/20251227T173704/main.log
+#	new file:   Code/logs/20251227T173704/network-shared.log
+#	new file:   Code/logs/20251227T173704/ptyhost.log
+#	new file:   Code/logs/20251227T173704/remoteTunnelService.log
+#	new file:   Code/logs/20251227T173704/sharedprocess.log
+#	new file:   Code/logs/20251227T173704/telemetry.log
+#	new file:   Code/logs/20251227T173704/terminal.log
+#	new file:   Code/logs/20251227T173704/userDataSync.log
+#	new file:   Code/logs/20251227T173704/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T173704/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T173704/window1/exthost/vscode.git/Git.log
+#	new file:   Code/logs/20251227T173704/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code/logs/20251227T173704/window1/exthost/vscode.github/GitHub.log
+#	new file:   Code/logs/20251227T173704/window1/network.log
+#	new file:   Code/logs/20251227T173704/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T173704/window1/output_20251227T173705/tasks.log
+#	new file:   Code/logs/20251227T173704/window1/renderer.log
+#	new file:   Code/logs/20251227T173704/window1/views.log
+#	new file:   Code/logs/20251227T173808/editSessions.log
+#	new file:   Code/logs/20251227T173808/main.log
+#	new file:   Code/logs/20251227T173808/network-shared.log
+#	new file:   Code/logs/20251227T173808/remoteTunnelService.log
+#	new file:   Code/logs/20251227T173808/sharedprocess.log
+#	new file:   Code/logs/20251227T173808/telemetry.log
+#	new file:   Code/logs/20251227T173808/terminal.log
+#	new file:   Code/logs/20251227T173808/userDataSync.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/output_logging_20251227T173809/1-Carbon Candy.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/output_logging_20251227T173809/2-Code.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/output_logging_20251227T173809/3-Prettier.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/vscode.git/Git.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/vscode.github/GitHub.log
+#	new file:   Code/logs/20251227T173808/window1/exthost/vscode.json-language-features/JSON Language Server.log
+#	new file:   Code/logs/20251227T173808/window1/network.log
+#	new file:   Code/logs/20251227T173808/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T173808/window1/output_20251227T173809/tasks.log
+#	new file:   Code/logs/20251227T173808/window1/renderer.log
+#	new file:   Code/logs/20251227T173808/window1/textModelChanges.log
+#	new file:   Code/logs/20251227T173808/window1/views.log
+#	new file:   Code/logs/20251227T174041/editSessions.log
+#	new file:   Code/logs/20251227T174041/main.log
+#	new file:   Code/logs/20251227T174041/network-shared.log
+#	new file:   Code/logs/20251227T174041/ptyhost.log
+#	new file:   Code/logs/20251227T174041/remoteTunnelService.log
+#	new file:   Code/logs/20251227T174041/sharedprocess.log
+#	new file:   Code/logs/20251227T174041/telemetry.log
+#	new file:   Code/logs/20251227T174041/terminal.log
+#	new file:   Code/logs/20251227T174041/userDataSync.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/output_logging_20251227T174042/1-Carbon Candy.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/output_logging_20251227T174042/2-Prettier.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/output_logging_20251227T174042/3-Code.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/vscode.git/Git.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/vscode.github/GitHub.log
+#	new file:   Code/logs/20251227T174041/window1/exthost/vscode.json-language-features/JSON Language Server.log
+#	new file:   Code/logs/20251227T174041/window1/network.log
+#	new file:   Code/logs/20251227T174041/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T174041/window1/output_20251227T174042/tasks.log
+#	new file:   Code/logs/20251227T174041/window1/renderer.log
+#	new file:   Code/logs/20251227T174041/window1/textModelChanges.log
+#	new file:   Code/logs/20251227T174041/window1/views.log
+#	new file:   Code/logs/20251227T174200/editSessions.log
+#	new file:   Code/logs/20251227T174200/main.log
+#	new file:   Code/logs/20251227T174200/network-shared.log
+#	new file:   Code/logs/20251227T174200/ptyhost.log
+#	new file:   Code/logs/20251227T174200/remoteTunnelService.log
+#	new file:   Code/logs/20251227T174200/sharedprocess.log
+#	new file:   Code/logs/20251227T174200/telemetry.log
+#	new file:   Code/logs/20251227T174200/terminal.log
+#	new file:   Code/logs/20251227T174200/userDataSync.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/output_logging_20251227T174201/1-Carbon Candy.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/output_logging_20251227T174201/2-Prettier.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/output_logging_20251227T174201/3-Code.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/output_logging_20251227T174302/1-Carbon Candy.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/output_logging_20251227T174302/2-Prettier.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/output_logging_20251227T174302/3-Code.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/vscode.css-language-features/CSS Language Server.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/vscode.git/Git.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/vscode.github/GitHub.log
+#	new file:   Code/logs/20251227T174200/window1/exthost/vscode.json-language-features/JSON Language Server.log
+#	new file:   Code/logs/20251227T174200/window1/network.log
+#	new file:   Code/logs/20251227T174200/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T174200/window1/output_20251227T174201/tasks.log
+#	new file:   Code/logs/20251227T174200/window1/output_20251227T174302/tasks.log
+#	new file:   Code/logs/20251227T174200/window1/renderer.log
+#	new file:   Code/logs/20251227T174200/window1/textModelChanges.log
+#	new file:   Code/logs/20251227T174200/window1/views.log
+#	new file:   Code/logs/20251227T175832/editSessions.log
+#	new file:   Code/logs/20251227T175832/main.log
+#	new file:   Code/logs/20251227T175832/network-shared.log
+#	new file:   Code/logs/20251227T175832/remoteTunnelService.log
+#	new file:   Code/logs/20251227T175832/sharedprocess.log
+#	new file:   Code/logs/20251227T175832/telemetry.log
+#	new file:   Code/logs/20251227T175832/terminal.log
+#	new file:   Code/logs/20251227T175832/userDataSync.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/output_logging_20251227T175833/1-Carbon Candy.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/output_logging_20251227T175833/2-Prettier.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/output_logging_20251227T175833/3-Code.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/vscode.css-language-features/CSS Language Server.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/vscode.git/Git.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/vscode.github/GitHub.log
+#	new file:   Code/logs/20251227T175832/window1/exthost/vscode.json-language-features/JSON Language Server.log
+#	new file:   Code/logs/20251227T175832/window1/network.log
+#	new file:   Code/logs/20251227T175832/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T175832/window1/output_20251227T175833/tasks.log
+#	new file:   Code/logs/20251227T175832/window1/renderer.log
+#	new file:   Code/logs/20251227T175832/window1/textModelChanges.log
+#	new file:   Code/logs/20251227T175832/window1/views.log
+#	new file:   Code/logs/20251227T181216/editSessions.log
+#	new file:   Code/logs/20251227T181216/main.log
+#	new file:   Code/logs/20251227T181216/network-shared.log
+#	new file:   Code/logs/20251227T181216/remoteTunnelService.log
+#	new file:   Code/logs/20251227T181216/sharedprocess.log
+#	new file:   Code/logs/20251227T181216/telemetry.log
+#	new file:   Code/logs/20251227T181216/terminal.log
+#	new file:   Code/logs/20251227T181216/userDataSync.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/extHostTelemetry.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/exthost.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/output_logging_20251227T181220/1-Carbon Candy.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/output_logging_20251227T181220/2-Prettier.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/output_logging_20251227T181220/3-Code.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/vscode.css-language-features/CSS Language Server.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/vscode.git/Git.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/vscode.github-authentication/GitHub Authentication.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/vscode.github/GitHub.log
+#	new file:   Code/logs/20251227T181216/window1/exthost/vscode.json-language-features/JSON Language Server.log
+#	new file:   Code/logs/20251227T181216/window1/network.log
+#	new file:   Code/logs/20251227T181216/window1/notebook.rendering.log
+#	new file:   Code/logs/20251227T181216/window1/output_20251227T181221/tasks.log
+#	new file:   Code/logs/20251227T181216/window1/renderer.log
+#	new file:   Code/logs/20251227T181216/window1/textModelChanges.log
+#	new file:   Code/logs/20251227T181216/window1/views.log
+#	new file:   Code/machineid
+#	modified:   dconf/user
+#	modified:   hypr/Script/random_wallpaper.sh
+#	new file:   hypr/Script/select_wallpaper.sh
+#	modified:   hypr/hyprland.conf
+#	modified:   kiorc
+#	modified:   session/dolphin_dolphin_dolphin
+#	modified:   waybar/config.jsonc
+#	modified:   waybar/style.css
+#
+# Changes not staged for commit:
+#	modified:   Code/logs/20251227T181216/window1/exthost/vscode.git/Git.log
+#
