@@ -76,3 +76,22 @@ Require stack:
 	at HX.Cb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:253:1253)
 2025-12-26 22:44:58.444 [warning] [Decorations] CAPPING events from decorations provider vscode.git 937
 2025-12-26 22:44:58.748 [warning] [Decorations] CAPPING events from decorations provider vscode.git 937
+2025-12-26 23:07:53.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 937
+2025-12-26 23:39:53.646 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-26 23:55:54.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2428
+2025-12-26 23:55:59.645 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2435
+2025-12-26 23:56:07.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2435
+2025-12-26 23:56:11.711 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2449
+2025-12-26 23:56:13.841 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4872
+2025-12-26 23:56:35.331 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4876
+2025-12-26 23:56:38.716 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-12-26 23:56:40.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4877
+2025-12-26 23:56:44.046 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-26 23:56:44.240 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-12-26 23:56:44.268 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2025-12-27 00:00:29.214 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2429
+2025-12-27 00:00:34.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2436
+2025-12-27 00:00:41.728 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2436
+2025-12-27 00:02:43.462 [warning] [Decorations] CAPPING events from decorations provider vscode.git 2436
+2025-12-27 00:02:44.053 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-27 00:02:44.128 [info] Extension host with pid 58167 exiting with code 0

@@ -9,7 +9,11 @@
                 "folderUri": "file:///home/bat"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1766772277260"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -17,7 +21,9 @@
             "file:///home/bat/ultimate-pro-riced-manager": "__default__profile__",
             "file:///home/bat": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1766772277260": "__default__profile__"
+        }
     },
     "windowsState": {
         "lastActiveWindow": {
@@ -524,7 +530,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1170,13 +1177,11 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "workbench.action.terminal.newInNewWindow",
-                        "label": "New Terminal &&Window",
-                        "enabled": false
+                        "label": "New Terminal &&Window"
                     },
                     {
                         "id": "vscode.menubar.separator"

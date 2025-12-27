@@ -1,0 +1,45 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces","hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["network", "tray","battery"],
+    
+    "hyprland/workspaces": {
+        // "format":{name},
+    },
+    
+    "clock": {"format": "{:%I:%M %p}", "tooltip-format": "{:%Y-%m-%d %a}"},
+    
+    // "battery": {
+    //     "format": "{capacity}% {icon}",
+    //     "format-icons": ["", "", "", "", "", "", "", "", "", "", ""]
+    // },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": [
+            "",  // 0% - 10%
+            "",  // 11% - 20%
+            "",  // 21% - 30%
+            "",  // 31% - 40%
+            "",  // 41% - 50%
+            "",  // 51% - 60%
+            "",  // 61% - 70%
+            "",  // 71% - 80%
+            "",  // 81% - 90%
+            "",  // 91% - 100%
+            ""   // Fallback icon
+        ],
+        "charging-icon": "",  // Icon for charging
+        "discharging-icon": "", // Icon for discharging (empty or different icon)
+        "status-format": "{status}",
+        "tooltip": true,
+        "update_interval": 1,
+        "format-alt": "{status} {capacity}%",  // Alternative format
+        "format-icons-charging": "",  // Optional for charging state icon
+        "on-click": "exec notify-send 'Battery Status Clicked'"  // Optional: action on click
+    },    
+    "network": {"format-wifi": "{essid} 󰖩", "format-ethernet": "󰈀", "format-disconnected": "⚠️"}
+}

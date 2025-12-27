@@ -1,0 +1,5 @@
+2025-12-27 18:12:18.224 [warning] Creation of workbench contribution 'workbench.contrib.configurationDefaultOverridesContribution' took 188ms.
+2025-12-27 18:12:19.533 [info] Started local extension host with pid 1091.
+2025-12-27 18:12:24.619 [info] MCP Registry configured: https://api.mcp.github.com
+2025-12-27 18:12:25.202 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-12-27 18:12:26.172 [info] [perf] Render performance baseline is 80ms

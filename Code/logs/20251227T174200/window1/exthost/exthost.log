@@ -1,0 +1,259 @@
+2025-12-27 17:42:01.364 [info] Extension host with pid 3840 started
+2025-12-27 17:42:01.377 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-27 17:42:01.394 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-27 17:42:01.434 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-12-27 17:42:01.439 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-12-27 17:42:01.471 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-27 17:42:01.570 [info] Eager extensions activated
+2025-12-27 17:42:01.575 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.576 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.589 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.591 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.639 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.646 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.648 [info] ExtensionService#_doActivateExtension viral-team.carbon-candy, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:42:01.649 [error] Activating extension viral-team.carbon-candy failed due to an error:
+2025-12-27 17:42:01.649 [error] Error: Cannot find module '../icons/carbon-candy-icon-theme.json'
+Require stack:
+- /home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/config.js
+- /home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/change-listener.js
+- /home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16354)
+	at t._resolveFilename (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22880)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1037:22)
+	at Module._load (node:internal/modules/cjs/loader:1199:37)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/config.js:3:23)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/change-listener.js:1:72)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/extension.js:2:34)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at HX.Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:253:1253)
+2025-12-27 17:42:08.848 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-27 17:42:08.853 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-27 17:42:08.906 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-12-27 17:43:01.644 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-27 17:43:01.669 [info] Extension host with pid 3840 exiting with code 0
+2025-12-27 17:43:02.747 [info] Extension host with pid 4637 started
+2025-12-27 17:43:02.747 [info] Skipping acquiring lock for /home/bat/.config/Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a.
+2025-12-27 17:43:02.783 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-12-27 17:43:02.807 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-12-27 17:43:02.857 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-12-27 17:43:02.887 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-12-27 17:43:02.966 [info] Eager extensions activated
+2025-12-27 17:43:02.971 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:02.974 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:04.181 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-12-27 17:43:04.272 [info] ExtensionService#_doActivateExtension aaron-bond.better-comments, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:04.274 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:04.324 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:04.332 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:04.335 [info] ExtensionService#_doActivateExtension viral-team.carbon-candy, startup: false, activationEvent: 'onStartupFinished'
+2025-12-27 17:43:04.336 [error] Activating extension viral-team.carbon-candy failed due to an error:
+2025-12-27 17:43:04.336 [error] Error: Cannot find module '../icons/carbon-candy-icon-theme.json'
+Require stack:
+- /home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/config.js
+- /home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/change-listener.js
+- /home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/extension.js
+- /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1390:15)
+	at n._resolveFilename (node:electron/js2c/utility_init:2:16354)
+	at t._resolveFilename (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22880)
+	at defaultResolveImpl (node:internal/modules/cjs/loader:1032:19)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1037:22)
+	at Module._load (node:internal/modules/cjs/loader:1199:37)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/config.js:3:23)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/lib/change-listener.js:1:72)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at Object.<anonymous> (/home/bat/.vscode/extensions/viral-team.carbon-candy-0.2.2/extension.js:2:34)
+	at Module._compile (node:internal/modules/cjs/loader:1714:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1848:10)
+	at Module.load (node:internal/modules/cjs/loader:1448:32)
+	at Module._load (node:internal/modules/cjs/loader:1270:12)
+	at c._load (node:electron/js2c/node_init:2:17993)
+	at e._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:404:6048)
+	at t._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:222:22598)
+	at r._load (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:214:24094)
+	at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+	at Module.require (node:internal/modules/cjs/loader:1470:12)
+	at require (node:internal/modules/helpers:147:16)
+	at HX.Cb (file:///opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:253:1253)
+2025-12-27 17:43:04.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 400
+2025-12-27 17:43:04.604 [warning] [Decorations] CAPPING events from decorations provider vscode.git 400
+2025-12-27 17:43:10.554 [warning] [Decorations] CAPPING events from decorations provider vscode.git 402
+2025-12-27 17:43:15.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 402
+2025-12-27 17:43:18.740 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-12-27 17:43:20.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-12-27 17:43:25.664 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-12-27 17:43:30.695 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-12-27 17:43:35.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 403
+2025-12-27 17:43:40.773 [warning] [Decorations] CAPPING events from decorations provider vscode.git 406
+2025-12-27 17:43:45.816 [warning] [Decorations] CAPPING events from decorations provider vscode.git 406
+2025-12-27 17:43:50.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-12-27 17:43:55.902 [warning] [Decorations] CAPPING events from decorations provider vscode.git 405
+2025-12-27 17:44:00.933 [warning] [Decorations] CAPPING events from decorations provider vscode.git 407
+2025-12-27 17:44:05.971 [warning] [Decorations] CAPPING events from decorations provider vscode.git 407
+2025-12-27 17:44:11.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:16.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:21.100 [warning] [Decorations] CAPPING events from decorations provider vscode.git 407
+2025-12-27 17:44:26.148 [warning] [Decorations] CAPPING events from decorations provider vscode.git 407
+2025-12-27 17:44:32.489 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:37.527 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:42.566 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:47.597 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:52.635 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:44:57.675 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:45:02.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:45:07.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:45:12.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 408
+2025-12-27 17:45:17.922 [warning] [Decorations] CAPPING events from decorations provider vscode.git 409
+2025-12-27 17:45:22.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:45:27.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:45:33.026 [warning] [Decorations] CAPPING events from decorations provider vscode.git 409
+2025-12-27 17:45:38.058 [warning] [Decorations] CAPPING events from decorations provider vscode.git 409
+2025-12-27 17:45:43.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 409
+2025-12-27 17:45:48.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:45:53.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:45:58.328 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:03.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:08.409 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:13.445 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:18.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:23.524 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:28.559 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:34.192 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:39.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:46:44.266 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:48:06.017 [warning] [Decorations] CAPPING events from decorations provider vscode.git 410
+2025-12-27 17:48:18.036 [warning] [Decorations] CAPPING events from decorations provider vscode.git 412
+2025-12-27 17:48:23.075 [warning] [Decorations] CAPPING events from decorations provider vscode.git 412
+2025-12-27 17:48:28.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 412
+2025-12-27 17:48:33.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 412
+2025-12-27 17:48:40.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:48:52.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:48:57.606 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:53:53.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:53:58.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:54:03.587 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:54:08.623 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:54:13.662 [warning] [Decorations] CAPPING events from decorations provider vscode.git 414
+2025-12-27 17:54:18.697 [warning] [Decorations] CAPPING events from decorations provider vscode.git 415
+2025-12-27 17:54:23.733 [warning] [Decorations] CAPPING events from decorations provider vscode.git 415
+2025-12-27 17:54:29.354 [warning] [Decorations] CAPPING events from decorations provider vscode.git 416
+2025-12-27 17:54:34.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 416
+2025-12-27 17:54:38.736 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-12-27 17:54:39.428 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:54:44.469 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:54:49.510 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:54:54.549 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:54:59.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:04.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:09.651 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:14.690 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:19.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:24.763 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:29.805 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:34.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 423
+2025-12-27 17:55:39.880 [warning] [Decorations] CAPPING events from decorations provider vscode.git 424
+2025-12-27 17:55:44.915 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:55:49.958 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:55:54.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:56:00.029 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:05.065 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:10.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:15.151 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:20.203 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:25.241 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:51.639 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:56:57.894 [warning] [Decorations] CAPPING events from decorations provider vscode.git 425
+2025-12-27 17:57:02.931 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:57:07.971 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:57:13.012 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:57:18.050 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:57:23.101 [warning] [Decorations] CAPPING events from decorations provider vscode.git 426
+2025-12-27 17:57:28.143 [warning] [Decorations] CAPPING events from decorations provider vscode.git 427
+2025-12-27 17:57:33.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 427
+2025-12-27 17:57:38.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 427
+2025-12-27 17:57:43.267 [warning] [Decorations] CAPPING events from decorations provider vscode.git 427
+2025-12-27 17:57:48.303 [warning] [Decorations] CAPPING events from decorations provider vscode.git 427
+2025-12-27 17:57:53.342 [warning] [Decorations] CAPPING events from decorations provider vscode.git 428
+2025-12-27 17:57:58.390 [warning] [Decorations] CAPPING events from decorations provider vscode.git 428
+2025-12-27 17:58:04.687 [warning] [Decorations] CAPPING events from decorations provider vscode.git 428
+2025-12-27 17:58:04.898 [info] Extension host terminating: renderer closed the MessagePort
+2025-12-27 17:58:04.925 [info] Extension host with pid 4637 exiting with code 0
