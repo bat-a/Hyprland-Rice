@@ -1,4 +1,0 @@
-2025-12-27 18:12:24.828 [info] Log level: Info
-2025-12-27 18:12:25.618 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-12-27 18:12:25.740 [warning] [GitHubBranchProtectionProvider][updateRepositoryBranchProtection] Failed to update repository branch protection: No GitHub authentication session available.
-2025-12-27 18:14:25.602 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for bat-a/Hyprland-Rice: Error: No GitHub authentication session available.

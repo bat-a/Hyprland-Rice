@@ -1,5 +1,0 @@
-2025-12-27 17:35:16.414 [info] Extension host with pid 1143 started
-2025-12-27 17:35:16.520 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
-2025-12-27 17:35:16.543 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
-2025-12-27 17:35:16.560 [info] Extension host terminating: renderer closed the MessagePort
-2025-12-27 17:35:16.560 [info] Extension host with pid 1143 exiting with code 0
