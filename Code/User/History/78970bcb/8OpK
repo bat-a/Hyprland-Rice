@@ -1,0 +1,20 @@
+doen
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   Code/Network Persistent State
+#	new file:   Code/User/History/78970bcb/xSeb
+#	modified:   Code/User/globalStorage/state.vscdb
+#	modified:   Code/User/globalStorage/storage.json
+#	modified:   Code/User/workspaceStorage/9ed39626cd4d98d7ca27e9489f47712a/state.vscdb
+#	modified:   Code/logs/20251227T181216/window1/exthost/exthost.log
+#	modified:   Code/logs/20251227T181216/window1/exthost/vscode.git/Git.log
+#
+# Changes not staged for commit:
+#	modified:   Code/logs/20251227T181216/window1/exthost/vscode.git/Git.log
+#
